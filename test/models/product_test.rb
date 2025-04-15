@@ -1,15 +1,7 @@
-require "application_system_test_case"
+require "test_helper"
 
 class ProductTest < ActiveSupport::TestCase
-  test "visiting the homepage" do
-    # setup
-
-    # exercice
-    visit root_url
-
-    # verify
-    assert_selector "h1", text: "Awesome Products"
-
-    # teardown
-  end
+  # test "the truth" do
+  #   assert true
+  # end
 end
