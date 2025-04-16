@@ -6,7 +6,7 @@ Webdrivers::Chromedriver.required_version = '114.0.5735.90'  # Version stable co
 
 class ActiveSupport::TestCase
   # Run tests in parallel with specified workers
-  parallelize(workers: :number_of_processors)
+  # parallelize(workers: :number_of_processors)
 
   # Setup all fixtures in test/fixtures/*.yml for all tests in alphabetical order.
   fixtures :all
